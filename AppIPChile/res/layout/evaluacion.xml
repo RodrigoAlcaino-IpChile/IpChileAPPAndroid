@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvNota"
+        android:layout_width="298dp"
+        android:layout_height="338dp"
+        android:layout_x="40dp"
+        android:layout_y="113dp"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="@color/Yellow"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/spListadoAsignatura"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="49dp" />
+
+    <TextView
+        android:id="@+id/tvSeleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="118dp"
+        android:layout_y="32dp"
+        android:text="Seleccione Asignatura"
+        android:textColor="@color/Yellow" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="304dp"
+        android:layout_y="455dp"
+        android:onClick="Back"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>
